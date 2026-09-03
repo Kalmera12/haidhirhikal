@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio HAIDHIR HIKAL</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav id="nav">
+<div class="logo">PORTFOLIO</div>
+
+<ul id="navLinks">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certificate">Certificate</a></li>
+<li><a href="#address">Address</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- HOME -->
+<section class="hero" id="home">
+<div class="aurora"></div>
+
+<div class="profile-photo">
+<img src="poto diri.jpg" alt="Foto Profil Haidhir Hikal">
+</div>
+
+<div>
+<h1>Hi, I'm <span>Haidhir Hikal</span></h1>
+<p>REKAYASA PERANGKAT LUNAK</p>
+<a href="#contact" class="btn">Hubungi Kami →</a>
+</div>
+
+<div class="scroll-cue"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+
+<h2 class="section-title reveal">About Me</h2>
+<span class="divider reveal"></span>
+
+<div class="about reveal">
+Saya seorang UI/UX Designer yang berfokus pada pembuatan
+antarmuka modern, minimalis, dan user friendly.
+Saya memiliki ketertarikan dalam desain digital,
+wireframing, prototyping, serta pengembangan website
+menggunakan HTML dan CSS.
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+
+<h2 class="section-title reveal">Skills</h2>
+<span class="divider reveal"></span>
+
+<div class="skills reveal">
+<div class="skill">Microsoft Excel</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Microsoft Word</div>
+<div class="skill">Canva</div>
+</div>
+
+</section>
+
+<!-- PROJECT -->
+<section id="projects">
+
+<h2 class="section-title reveal">Projects</h2>
+<span class="divider reveal"></span>
+
+<div class="project-grid">
+
+<div class="card reveal" data-project="project-0">
+    <div class="card-media">
+        <img src="project1.jpg">
+    </div>
+    <div class="card-content">
+        <h3>E-Commerce Mobile App</h3>
+        <p>UI Design aplikasi marketplace modern.</p>
+    </div>
+</div>
+
+<div class="card reveal" data-project="project-1">
+    <div class="card-media">
+        <img src="project2.jpg">
+    </div>
+    <div class="card-content">
+        <h3>Finance Dashboard</h3>
+        <p>Dashboard analitik premium.</p>
+    </div>
+</div>
+
+<div class="card reveal" data-project="project-2">
+    <div class="card-media">
+        <img src="project3.jpg">
+    </div>
+    <div class="card-content">
+        <h3>Travel App</h3>
+        <p>Aplikasi booking wisata.</p>
+    </div>
+</div>
+
+<div class="card reveal" data-project="project-3">
+    <div class="card-media">
+        <img src="project4.jpg">
+    </div>
+    <div class="card-content">
+        <h3>School Website</h3>
+        <p>Website sekolah modern.</p>
+    </div>
+</div>
+
+<div class="card reveal" data-project="project-4">
+    <div class="card-media">
+        <img src="project5.jpg">
+    </div>
+    <div class="card-content">
+        <h3>Portfolio Website</h3>
+        <p>Website portfolio pribadi.</p>
+    </div>
+</div>
+
+<div class="card reveal" data-project="project-5">
+    <div class="card-media">
+        <img src="project6.jpg">
+    </div>
+    <div class="card-content">
+        <h3>Restaurant App</h3>
+        <p>Aplikasi pemesanan makanan.</p>
+    </div>
+</div>
+
+<div class="card reveal" data-project="project-6">
+    <div class="card-media">
+        <img src="project7.jpg">
+    </div>
+    <div class="card-content">
+        <h3>Movie App</h3>
+        <p>Platform streaming film.</p>
+    </div>
+</div>
+
+<div class="card reveal" data-project="project-7">
+    <div class="card-media">
+        <img src="project8.jpg">
+    </div>
+    <div class="card-content">
+        <h3>Music App</h3>
+        <p>Aplikasi streaming musik.</p>
+    </div>
+</div>
+
+<div class="card reveal" data-project="project-8">
+    <div class="card-media">
+        <img src="project9.jpg">
+    </div>
+    <div class="card-content">
+        <h3>Gym Dashboard</h3>
+        <p>Dashboard manajemen gym.</p>
+    </div>
+</div>
+
+</div>
+
+</section>
+
+<!-- CERTIFICATE -->
+<section id="certificate">
+
+<h2 class="section-title reveal">Certificates</h2>
+<span class="divider reveal"></span>
+<p class="section-sub reveal">Klik sertifikat untuk melihat detail penerbit dan tanggal terbit.</p>
+
+<!-- Cara menambah/ganti sertifikat: ganti nama file gambar (src) tiap <img>,
+     lalu sesuaikan data judul/deskripsi/tanggal di objek "certs" pada <script> di bawah -->
+<div class="cert-grid">
+
+<div class="cert-item reveal" data-cert="cert-0">
+<img src="serti1.jpg" alt="Sertifikat 1">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-1">
+<img src="serti2.jpg" alt="Sertifikat 2">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-2">
+<img src="serti3.jpg" alt="Sertifikat 3">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-3">
+<img src="serti4.jpg" alt="Sertifikat 4">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-4">
+<img src="serti5.jpg" alt="Sertifikat 5">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-5">
+<img src="serti6.jpg" alt="Sertifikat 6">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-6">
+<img src="serti7.jpg" alt="Sertifikat 7">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-7">
+<img src="serti8.jpg" alt="Sertifikat 8">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-8">
+<img src="serti9.jpg" alt="Sertifikat 9">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+<div class="cert-item reveal" data-cert="cert-9">
+<img src="serti10.jpg" alt="Sertifikat 10">
+<div class="cert-overlay"><span>Lihat Detail</span></div>
+</div>
+
+</div>
+
+</section>
+
+<!-- ADDRESS -->
+<section id="address">
+
+<h2 class="section-title reveal">Address</h2>
+<span class="divider reveal"></span>
+
+<div class="address-box reveal">
+
+<h3>Karanggan, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat</h3>
+
+<div class="map">
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d815.6133854762829!2d106.8831662695019!3d-6.458089999595837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ea9e8e87ad4b%3A0x4f842ce373ae53a1!2sKantor%20Kepala%20Desa%20Karanggan!5e1!3m2!1sid!2sid!4v1784365976614!5m2!1sid!2sid"
+loading="lazy">
+</iframe>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+<h2 class="section-title reveal">Contact</h2>
+<span class="divider reveal"></span>
+
+<div class="contact-box reveal">
+
+<a class="contact-item"
+href="mailto:haidhirhikal52@gmail.com">
+📧 Gmail
+</a>
+
+<a class="contact-item"
+href="https://www.instagram.com/dontgiveupkal?igsi=dTlwanY0NTA3YWly"
+target="_blank">
+📸 Instagram
+</a>
+
+<a class="contact-item"
+href="https://kalmera12.github.io/haidhirhikal/"
+target="_blank">
+💻 GitHub
+</a>
+
+<a class="contact-item"
+href="https://linkedin.com/in/USERNAME_LINKEDIN"
+target="_blank">
+🔗 LinkedIn
+</a>
+
+</div>
+
+</section>
+
+<footer>© 2026 Kal Portfolio</footer>
+
+<!-- MODAL SERTIFIKAT -->
+<div class="modal-backdrop" id="modalBackdrop">
+<div class="modal" role="dialog" aria-modal="true">
+<button class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+<div class="modal-media"><img id="modalImg" src="" alt=""></div>
+<div class="modal-body">
+<div class="modal-eyebrow" id="modalEyebrow">Sertifikat</div>
+<h3 id="modalTitle"></h3>
+<p id="modalDesc"></p>
+<div class="modal-meta" id="modalMeta"></div>
+</div>
+</div>
+</div>
+
+<script src="script.js"></script>
